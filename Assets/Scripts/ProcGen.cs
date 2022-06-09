@@ -23,6 +23,14 @@ public class ProcGen : MonoBehaviour
                 3,1,2
             };
 
+        List<Vector3> normals = new List<Vector3>()
+        {
+            new Vector3(0,0,1),
+            new Vector3(0,0,1),
+            new Vector3(0,0,1),
+            new Vector3(0,1,0)
+        };
+
         mesh.SetVertices(points);
         mesh.triangles = triIndices;
 
