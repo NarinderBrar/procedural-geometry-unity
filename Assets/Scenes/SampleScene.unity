@@ -324,9 +324,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1263002301}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be65ddd8b9f153a4a936b7b34cc2ba91, type: 3}
+  m_Script: {fileID: 11500000, guid: 64a4a176ea1dd39439cce72e8993d452, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  radiusInner: 0.61
+  thickness: 0.59
+  angularSegments: 3
 --- !u!4 &1263002303
 Transform:
   m_ObjectHideFlags: 0
@@ -367,7 +370,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b629ddcc6f1a0d4caf5c9a15b25d433, type: 2}
+  - {fileID: 2100000, guid: 7c1a27366374e57449cbc70cc59a328d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
